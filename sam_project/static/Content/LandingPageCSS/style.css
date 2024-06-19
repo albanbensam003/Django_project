@@ -1,0 +1,865 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    /*font-family: 'Conv_Gotham-Light' !important;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*@font-face {
+    font-family: 'Conv_Gotham-Bold';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: local('☺'), url('../fonts/Gotham-Bold.woff') format('woff'), url('../fonts/Gotham-Bold.ttf') format('truetype'), url('../fonts/Gotham-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_Gotham-Light';
+    src: url('../fonts/Gotham-Light.eot');
+    src: local('☺'), url('../fonts/Gotham-Light.woff') format('woff'), url('../fonts/Gotham-Light.ttf') format('truetype'), url('../fonts/Gotham-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Conv_Gotham-Black';
+    src: url('../fonts/Gotham-Black.eot');
+    src: local('☺'), url('../fonts/Gotham-Black.woff') format('woff'), url('../fonts/Gotham-Black.ttf') format('truetype'), url('../fonts/Gotham-Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+.form-control:focus {
+    color: #000 !important;
+}
+
+.main-con {
+    max-width: 1180px;
+    margin:auto;
+}
+
+.samsung_top_header{
+    display:table;
+    margin:auto;
+    border-bottom:0px solid #333;
+    width:100%;
+}
+.samsung_top_header .top-logo{
+    padding:10px;
+}
+.samsung_top_number {
+    padding: 4px 14px 0px 0px;
+    border: 2px solid #333;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Conv_Gotham-Bold';
+    width: 205px;
+    margin-left: 43%;
+}
+.samsung_top_number a{
+	color:#333 !important;
+}
+.samsung_top_number span{
+    padding: 5px 15px 6px 18px;
+    border-right: 2px solid #333;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size:22px;
+    font-weight:bold;
+}
+.samsung-banner-slider .slide {
+    position:relative;
+}
+.carousel-indicators {
+    bottom: -40px !important;
+}
+.carousel-inner img{
+	width:100%;
+}
+.samsung-our-services h3 {
+margin-bottom: 5px;
+text-align:left;
+}
+
+/*
+.samsung-banner-slider .carousel-inner .top_slider1{
+	background-image:url(../images/reapir-banner.jpg);
+	height:500px;
+	width:100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.samsung-banner-slider .carousel-inner .top_slider2{
+	background-image:url(../images/Xiaomi-honor-4g.jpg);
+	height:500px;
+	width:100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.samsung-banner-slider .carousel-inner .top_slider3{
+	background-image:url(../images/Homepage_banner_accesories.jpg);
+	height:500px;
+	width:100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+*/
+.samsung-banner-slider .mobile-img{
+	display:none;
+	
+}
+.samsung-banner-slider .desktop-img{
+		display:block;
+		width:100%;
+	}
+/***************form******************/
+
+.samsung-banner-form{
+	width:350px;
+	position:absolute;
+	z-index:33333;
+	top:25px;
+	right:70px;
+	background-color:#fff;
+	padding: 15px 1px;
+	box-shadow: 0px 0px 10px 0px;
+	border-radius: 8px;
+	display: table;
+}
+.samsung-banner-form h4{
+	color:#1d4dcb;
+}
+.samsung-banner-form button{
+	background-color:green;
+	color:#fff;
+}
+.samsung-title span {
+    font-size: 46px;
+    color: #1d4dcb;
+    /* font-family: 'Conv_Gotham-Bold' !important; */
+    text-transform: capitalize;
+}
+.samsung-title h1 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.samsung-banner-form label{
+	margin-top:5px;
+}
+.samsung-banner-form button{
+	margin-top:5px;
+}
+.samsung-banner-form .btn-yellow {
+    background: #1cccfe;
+}
+/***************samsung-barad-series******************/
+
+.samsung-brand-series{
+	background-image:url(../../images/RepairLandingPages/background_left.png) , url(../../images/RepairLandingPages/background_right.png);
+	background-repeat:no-repeat;
+	background-position:left bottom , right top 65%;
+	padding-bottom:40px;
+	margin-top: 0px;
+}
+.samsung-doorstep-repair{
+	margin:auto;
+	text-align: center;
+}
+
+.outer-series{
+	text-align:center;
+	padding: 30px;
+    box-sizing: border-box;
+}
+.brand-series{
+	background-color: #ebebeb;
+    display: inline-grid;
+    text-align: center;
+    border-radius: 50px;
+    padding: 4px 35px 0px 35px;
+    margin: 5px 5px;
+    border: 1px solid #e0e0e0b0;
+    width: 190px;
+}
+.brand-series:hover {
+    box-shadow: 0px 0px 5px #92abec;
+	cursor:pointer;
+}
+
+.outer-text p{
+	font-size: 18px;
+    margin-bottom: 22px;
+	line-height: 1.5;
+}
+
+.brand-series h4{
+	color:#1d4dcb;
+	font-weight:600;
+	margin-top: 0px;
+}
+
+.samsung-doorstep-repair h3{
+	font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.samsung-brand-series .col-sm-3{
+	border: 1px solid #333;
+    /* padding: 20px; */
+    height: 185px;
+    float: left;
+    display: flex;
+	
+}
+.center-box{
+	width: 822px;
+    margin: auto;
+}
+.samsung-doorstep-repair{
+	width:100%;
+}
+.samsung-brand-series .col-sm-3:hover {
+    border: 1px solid #1c4cca;
+	background-color:#275eef17;
+	cursor:pointer;
+	background-image: linear-gradient(to right,
+    transparent,
+    transparent 50%,
+    #275eef17 50%,
+    #275eef17);
+	background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+}
+.samsung-brand-series .col-sm-3:hover h3 {
+    color:#1c4cca;
+	
+}
+
+.samsung-doorstep-repair img{
+	margin:auto;
+	width: 80px;
+}
+
+/*************samsung-our-services******************/
+
+.samsung-our-services {
+    background-image: url(../../images/RepairLandingPages/samsung-our-service.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 20px;
+    background-position: top;
+    background-color: #e2f5fc;
+}
+.samsung-our-services h2{
+	margin-top: 50px;
+    margin-bottom: 40px;
+    color: #1d4dcb;
+    font-size: 30px;
+    font-weight: bold;
+	/*font-family: 'Conv_Gotham-Bold' !important;*/
+}
+.service-icon h3{
+	font-size: 18px;
+    font-weight: 600;
+	/*font-family: 'Conv_Gotham-Bold' !important;*/
+	line-height: 21px;
+}
+
+.service-icon h3 img{
+	display: block;
+    width: 55px;
+    float: left;
+	margin-right: 12px;
+}
+.samsung-img img{
+	margin: auto;
+    padding: 0px;
+    margin-top: 100px;
+}
+.service-icon p{
+	font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+
+/******************What Our Customers Say******************/
+.bg-customers {
+    padding-top: 80px;
+    background-image: url(../../images/LandingPagesImage/bg-customers-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.status-box {
+	border-radius: 50px;
+    text-align: center;
+    padding: 20px 10px 25px;
+    background-color: #ededf7;
+    box-shadow: 0px 0px 30px 0px #c7c7c7;
+    height: 155px;
+    display: table;
+    width: 85%;
+	margin: auto;
+}
+
+.status-box h2{
+	font-weight:bold;
+	color:#1d4dcb;
+	/*font-family: 'Conv_Gotham-Bold' !important;*/
+}
+    .status-box h4 {
+        font-weight: bold;
+        color: #1d4dcb;
+        font-size: 25px;
+        margin:15px 0px;
+        /*font-family: 'Conv_Gotham-Bold' !important;*/
+    }
+
+
+.status-box span{
+	font-weight:600;
+	font-size:18px;
+}
+
+/*******************samsung-testimonial***************************/
+.samsung-testimonial {
+    width: 100%;
+}
+.samsung-testimonial h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1d4dcb;
+    margin-top: 60px;
+    /*font-family: 'Conv_Gotham-Bold' !important;*/
+}
+    .samsung-testimonial h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #1d4dcb;
+        margin-top: 60px;
+        padding: 20px 0px;
+        text-transform: uppercase;
+        /*font-family: 'Conv_Gotham-Bold' !important;*/
+    }
+
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.samsung-testimonial .carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.samsung-testimonial .carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+	/*margin: 5px 30px;*/
+}
+.samsung-testimonial .carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 0px solid #ddd;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+.samsung-testimonial .carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.samsung-testimonial .carousel .testimonial {
+	padding: 30px 0 10px;
+	color: #000;
+    font-size: 16px;
+}
+.samsung-testimonial .carousel .overview {	
+	font-style: italic;
+}
+.samsung-testimonial .carousel .overview b {
+	text-transform: uppercase;
+	color: #1d4dcb;
+	font-style: normal;
+}
+.samsung-testimonial .carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none !important;
+}
+.samsung-testimonial .carousel-control {
+	opacity: 1.5 !important;
+}
+.samsung-testimonial .samsung-testimonial h1{
+	color: #1844a3;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.samsung-testimonial .carousel-inner{
+	background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 16px 0px;
+    box-sizing: border-box;
+	
+}
+.samsung-testimonial .carousel-control i {
+    font-size: 40px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color:#000;
+	opacity: 10;
+}
+.samsung-testimonial .carousel .carousel-indicators {
+	bottom: -40px;
+}
+.samsung-testimonial .carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.samsung-testimonial p{
+    margin-top:-27px;
+    margin-bottom:2rem;
+}
+.carousel-indicators li {
+    border: 2px solid #1844a3 !important;
+}
+.carousel-indicators li.active {	
+	background: #1844a3;		
+}
+.testimonial p{
+	padding:20px;
+}
+
+.testimonial p::after {
+	content:"";
+	width:50px;
+	height:50px;
+	position:absolute;
+	bottom:0px;
+	right:-1px;
+	background-image:url(../images/after.html);
+	background-repeat:no-repeat;
+	padding:10px;
+	
+}
+.testimonial p::before {
+	content:"";
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:-15px;
+	left:0px;
+	background-image:url(../images/before-icon.html);
+	background-repeat:no-repeat;
+}
+.testimonial{
+	position:relative;
+}
+.samsung-margin-top {
+    margin-top: 16px;
+}
+
+/***********footer*************/
+
+.samsung-footer-icon img{
+	display:inline-block;
+	font-weight:bold;
+	font-family: 'Conv_Gotham-Bold' !important;
+	
+}
+.samsung-footer-icon h5{
+	font-weight:bold;
+	font-size:16px;
+	float: initial !important;
+	font-family: 'Conv_Gotham-Bold' !important;
+}
+
+.samsung-footer{
+	display:none;
+}
+
+.lh-45 {
+line-height: 45px !important;
+}
+.mt-0 img {
+    margin-top: 0px;
+}
+
+.laptop-section h3 {
+    font-size: 21px !important;
+}
+
+    .laptop-section h3 span {
+        color: #1d4dcb !important;
+        font-size: 18px !important;
+    }
+
+.laptop-section p {
+    clear: both !important;
+    margin-top: 16px !important;
+}
+
+.laptop-img .samsung-img img {
+    margin-top: 66px;
+}
+
+.model-wise .service-icon h3 img{
+margin-top: -13px!important;	
+}
+
+/*11-01-2022*/
+.interlink h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1d4dcb;
+    margin-top: 60px;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    /* font-family: 'Conv_Gotham-Bold' !important; */
+}
+
+.linterlink-bx {
+    padding: 0px;
+    border-bottom: solid 1px #ededf7;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .linterlink-bx a {
+        border-radius: 10px;
+        box-shadow: 5px 5px 34px #cccccc40;
+        padding: 10px 15px;
+        border: solid 1px #1d4dcb;
+        color: #1d4dcb;
+        font-size:16px;
+        margin: 0px 6px;
+    }
+    .interlink-active {
+        background-color: #1d4dcb !important;
+        color: #fff !important;
+    }
+    .linterlink-bx a:hover{        
+        background-color: #1d4dcb;
+        color:#fff;
+        text-decoration:none;
+    }
+       
+    /*end 11-01-2022*/
+
+
+    /***************media*******************/
+    @media screen and (max-width: 360px) {
+        .outer-text p {
+            font-size: 12px;
+        }
+
+        .service-icon p {
+            font-size: 12px !important;
+        }
+    }
+
+
+
+    @media screen and (max-width: 600px) {
+
+        .samsung_top_header .top-logo {
+            width: 150px;
+        }
+
+        .samsung_top_number {
+            padding: 0px 7px 0px 0px;
+            margin-top: -40px !important;
+            font-size: 12px;
+            width: 142px;
+        }
+
+            .samsung_top_number span {
+                padding: 4px 6px 3px 12px;
+                font-size: 15px;
+            }
+
+
+        .brand-series {
+            margin: 5px 2px;
+        }
+
+        .samsung-title span {
+            font-size: 26px !important;
+            line-height: 22px;
+        }
+
+        .samsung-title h1 {
+            font-size: 16px !important;
+        }
+
+        .outer-text p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .samsung-our-services h2 {
+            margin-bottom: 18px;
+            font-size: 22px;
+        }
+
+        .service-icon h3 {
+            font-size: 16px;
+        }
+
+        .service-icon p {
+            font-size: 14px !important;
+        }
+
+        .service-icon h3 img {
+            width: 35px;
+        }
+
+        .samsung-img img {
+            padding: initial;
+            width: 180px;
+        }
+
+        .bg-customers {
+            padding-top: 30px;
+            background-size: 200% 100%;
+        }
+
+        .samsung-banner-form {
+            position: initial;
+            padding: 15px 1px;
+            box-shadow: 0px 0px 10px 0px;
+            margin: auto;
+        }
+
+        .samsung-testimonial h1 {
+            font-size: 22px;
+            margin-top: 50px;
+        }
+
+        .samsung-testimonial .carousel {
+            padding: 0 0px;
+        }
+
+        .samsung-testimonial .carousel-control i {
+            display: none;
+        }
+
+        .status-box {
+            margin-bottom: 10px;
+            width: 100% !important;
+        }
+
+        .samsung-our-services {
+            background-size: 1000% 100%;
+            padding-bottom: 10px;
+        }
+
+        .samsung-footer-icon h5 {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .samsung-footer-icon img {
+            width: 30px;
+            text-align: center;
+        }
+
+        .samsung-brand-series .col-sm-3 {
+            padding: 15px;
+        }
+
+        .samsung-doorstep-repair {
+            margin: auto;
+        }
+
+        .testimonial i {
+            font-size: 40px;
+        }
+
+        .samsung-testimonial .carousel .testimonial {
+            font-size: 14px;
+        }
+
+        .brand-series h4 {
+            font-size: 16px;
+        }
+
+        .service-icon h3 img {
+            margin-right: 5px;
+        }
+
+        .laptop-img {
+            width: 100%;
+        }
+
+        .laptop-section h3 span {
+            font-size: 15px !important;
+        }
+
+        .laptop-section h3 {
+            font-size: 18px !important;
+            clear: both;
+        }
+
+        .laptop-section .service-icon h3 img {
+            margin-bottom: 31px;
+        }
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .samsung_top_number {
+            margin-top: -53px;
+        }
+
+        .samsung-testimonial .carousel {
+            max-height: 290px !important;
+            display: table;
+        }
+
+        .mobile-banner {
+            display: block !important;
+            width: 100%;
+        }
+
+        .desktop-banner {
+            display: none !important;
+        }
+
+        .samsung-doorstep-repair h3 {
+            font-size: 18px;
+        }
+
+        .samsung-brand-series .col-sm-3 {
+            height: 200px;
+            width: 50%;
+        }
+
+        .samsung-img img {
+            margin-top: 0px !important;
+        }
+
+        .status-box {
+            border-radius: 33px;
+            width: 70% !important;
+            margin-bottom: 10px;
+        }
+
+        .samsung-banner-form {
+            position: initial;
+            margin: auto;
+        }
+
+        .samsung-title span {
+            font-size: 40px;
+        }
+
+        .samsung-title h1 {
+            margin-top: 0px;
+            width: 85%;
+            margin: auto;
+            padding-bottom: 11px;
+            line-height: 35px !important;
+        }
+
+        .service-icon p {
+            font-size: 16px;
+        }
+
+        .center-box {
+            width: initial;
+            margin: auto;
+        }
+
+        .lh-45 {
+            line-height: 24px !important;
+        }
+    }
+
+
+
+
+    @media screen and (max-width: 900px) {
+        .samsung_top_number {
+            margin-top: 23px;
+        }
+
+        .status-box h3 {
+            font-size: 22px;
+        }
+
+        .status-box span {
+            font-size: 14px;
+        }
+
+        .status-box {
+            width: 150px;
+        }
+
+        .samsung-footer-icon h5 {
+            text-align: center;
+        }
+
+        .samsung-img img {
+            margin-top: 0px;
+        }
+
+        .samsung-title h1 {
+            line-height: 40px;
+        }
+
+        .main-con {
+            max-width: 94%;
+        }
+
+        .r-banner .landing-form {
+            position: initial !important;
+            float: initial;
+            margin: auto;
+        }
+
+        .samsung-brand-series .main-con {
+            max-width: 90%;
+        }
+
+        .samsung-img {
+            text-align: center;
+        }
+
+        .linterlink-bx {
+            display: grid;
+        }
+        .linterlink-bx a {              
+         margin: 5px 6px;
+        }
+
+    }

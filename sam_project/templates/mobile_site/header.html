@@ -1,0 +1,74 @@
+{% load static %}
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2 col-lg-2 yaantra-logo"><a href="{% url 'mobile-site-views-index' %}" title="EL-ELOHE Logo"><img src="{% static 'ELELOHE/EL_ELOHE_LOGO_1.png' %}" alt="EL-ELOHE Logo" /></a></div>
+            <!-- /.col-sm-3-->
+            <div class="col-sm-5 col-lg-5 pro-search">
+
+            </div>
+            <!-- /.col-sm-8-->
+            <div class="col-sm-2 col-lg-2 cart-div">
+                <div class="my-cart">
+
+
+
+
+                </div>
+
+            </div>
+            <div class="col-sm-3 col-lg-3 text-center repmob-no">
+                9841190111
+            </div>
+
+            <!-- /.col-sm-8-->
+        </div>
+        <!-- /.row-->
+    </div>
+    <!-- /.container-->
+
+
+    <div class="row gray-nav-bg">
+        <div class="container">
+            <nav class="navbar navbar-default navbar-static">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse js-navbar-collapse">
+                    <ul class="nav navbar-nav">
+
+
+                        <li> <a class="navbar-brand" href="{% url 'mobile-site-views-index' %}"><span class="glyphicon glyphicon-home"></span></a></li>
+
+                        <li class="dropdown dropdown-large">
+                            <a href="{% url 'mobile-site-views-index' %}">Home</a>
+                        </li>
+
+
+                        <li class="dropdown dropdown-large">
+                            <a href="{% url 'mobile-sub-page-index' %}" class="dropdown-toggle" >Mobile Repair </a>
+                        </li>
+
+                        <!--li class="dropdown dropdown-large">
+                            <a href="#" class="dropdown-toggle">Laptop Repair </a>
+                        </li>
+
+                        <li class="dropdown dropdown-large">
+                            <a href="https://www.yaantra.com/phonecash/sell-used-mobile-phone" class="hvr-underline-reveal">Desktop service</a>
+                        </li-->
+
+                    </ul>
+
+                </div><!-- /.nav-collapse -->
+            </nav>
+        </div>
+    </div>
+
+</header>

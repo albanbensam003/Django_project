@@ -1,0 +1,1525 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --white-bg-color: #fff;
+    --yellow-bg-form: #f89722;
+    --white-font-color: #fff;
+    --black-font-color: #000;
+    --font-color: #ff7006;
+    --grey-bg: #f4f4f4;
+}
+
+[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
+    outline: none !important;
+}
+
+
+/*header css*/
+
+.header {
+    padding: 0px 0;
+    /*background: #2874f0;*/
+    background: rgb(255 99 164);
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+
+.yaantra-logo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+    .yaantra-logo img {
+        width: 165px;
+        width: 456px;
+        height: auto;
+        float: left;
+    }
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-nav {
+    margin: inherit;
+}
+
+    .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+.repmob-no {
+    /*background-color: var(--yellow-bg-form);*/
+    background-color: #001e72;
+    font-size: 28px;
+    padding: 3px 0px;
+    border-radius: 60px;
+    margin-top: 8px;
+}
+
+.newsletter {
+    padding: 24px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+    .home-newsletter .single p {
+        font-size: 17px;
+        color: #312f2e;
+        margin-bottom: 23px;
+    }
+
+.icon-left {
+    background-image: url(../images/yaantra-icon-set.html);
+    background-position: 92% 135%;
+    height: 50px;
+    width: 61px;
+    margin: auto;
+}
+
+.home-newsletter .single .form-control {
+    min-height: 50px;
+    border-radius: 0 5px 5px -1px;
+    background: #ffffff;
+    color: #131313;
+    border: 1px solid #c1c1c1;
+}
+
+.home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+    .home-newsletter .single .btn {
+        min-height: 50px;
+        border-radius: 0 5px 5px 0;
+        background: #e85222;
+        color: #fff;
+        font-size: 14px;
+    }
+
+.footer .btn {
+    height: 30px;
+    background: #e85222;
+    color: #fff;
+    line-height: 30px;
+    padding: 0 25px;
+    font-size: 0.775rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.footer-menu {
+    padding: 46px 0px;
+}
+
+
+.title5 {
+    color: #222;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 15px;
+}
+
+.address {
+    margin: 0px;
+    padding: 0px;
+}
+
+    .address li.adres {
+        line-height: 18px;
+    }
+
+    .address li {
+        list-style-type: none;
+        display: block;
+        padding-bottom: 0px;
+        font-size: 13px;
+        line-height: 40px;
+        position: relative;
+        padding-left: 35px;
+    }
+
+        .address li i.fa {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-radius: 2px;
+            text-align: center;
+            line-height: 30px;
+            background: #a3a3a3;
+            color: #fff;
+            display: inline-block;
+            cursor: pointer;
+            margin-top: 3px;
+        }
+
+.footer .usefullink {
+    margin: 0px;
+    padding: 0px;
+}
+
+    .footer .usefullink li {
+        padding-bottom: 7px;
+        list-style-type: none;
+    }
+
+        .footer .usefullink li a {
+            font-size: 13px;
+            position: relative;
+            display: inline-block;
+            color: #555;
+            text-decoration: none;
+            transition: all 0.2s ease-in-out 0s;
+        }
+
+            .footer .usefullink li a:hover:before {
+                width: 13px;
+                height: 1px;
+                background: #2874f0;
+            }
+
+
+
+            .footer .usefullink li a:before {
+                content: "";
+                width: 0;
+                height: 1px;
+                position: absolute;
+                top: 9px;
+                left: 0;
+                transition: all 0.2s ease-in-out 0s;
+            }
+
+            .footer .usefullink li a:hover:before {
+                width: 13px;
+                height: 1px;
+                background: #2874f0;
+            }
+
+            .footer .usefullink li a:hover {
+                padding-left: 20px;
+                color: #2874f0;
+            }
+
+.socil-icon-app {
+    padding: 20px 0 11px;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+.dapp {
+    margin-top: 16px;
+}
+
+    .dapp a {
+        padding: 0 0px 0 10px;
+        display: inline-block;
+    }
+
+.ssl {
+    text-align: center;
+}
+
+.socials {
+    float: right;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+
+    .socials li {
+        float: left;
+        padding-left: 8px;
+        line-height: 30px;
+        display: block;
+    }
+
+        .socials li a {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            border-radius: 50%;
+            background: #a3a3a3;
+            display: inline-block;
+            cursor: pointer;
+            text-align: center;
+        }
+
+.copyright-div {
+    position: relative;
+}
+
+.copyright-div {
+}
+
+.after-footer {
+    padding: 8px 0;
+    background: #2874f0;
+    color: #fff;
+}
+
+.navbar-collapse a:hover {
+    color: #2874f0;
+}
+/*footer*/
+.page-body {
+    padding-top: 114px;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.close {
+    z-index: 99999;
+}
+
+
+
+.container {
+    width: 1176px;
+}
+
+/******Banner-section**********/
+.banner-bg {
+    background-image: url(../images/bg-img.png);
+    background-color: background-color:background: -moz-linear-gradient(89deg, rgba(3,117,188,1) 0%, rgba(3,97,156,1) 43%, rgba(48,48,48,1) 80%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(20%, rgba(48,48,48,1)), color-stop(57%, rgba(3,97,156,1)), color-stop(100%, rgba(3,117,188,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(89deg, rgba(3,117,188,1) 0%, rgba(3,97,156,1) 43%, rgba(48,48,48,1) 80%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(89deg, rgba(3,117,188,1) 0%, rgba(3,97,156,1) 43%, rgba(48,48,48,1) 80%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(89deg, rgba(3,117,188,1) 0%, rgba(3,97,156,1) 43%, rgba(48,48,48,1) 80%, rgba(0,0,0,1) 100%); /* ie10+ */
+    background: linear-gradient(1deg, rgba(3,117,188,1) 0%, rgba(3,97,156,1) 43%, rgba(48,48,48,1) 80%, rgba(0,0,0,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0375bc',GradientType=0 ); /* ie6-9 */
+    width: 100%;
+    height: 100%;
+    padding: 30px 0px;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+    .banner-bg .col-sm-8 h1 {
+        font-size: 50px;
+        color: var(--white-font-color);
+        font-weight: 600;
+        text-align: center;
+        margin-top: 45px;
+        line-height: 70px;
+    }
+
+        .banner-bg .col-sm-8 h1 strong {
+            font-weight: bolder;
+            color: var(--font-color);
+        }
+
+    .banner-bg .enquiry-form {
+        background-color: var(--yellow-bg-form);
+        padding: 30px 40px 30px 40px;
+        border-radius: 10px;
+        margin-top: 55px;
+    }
+
+.select2-container .select2-selection--single {
+    height: 40px !important;
+}
+
+.banner-bg .enquiry-form h3 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.banner-bg .enquiry-form input {
+    color: var(--black-font-color);
+    border: 1px solid #e5e2e2;
+}
+
+.banner-bg .enquiry-form select {
+    height: 44px;
+    color: var(--black-font-color);
+    border: 1px solid #e5e2e2;
+}
+
+.enquiry-form .col-sm-6 {
+    padding: 10px;
+}
+
+.enquiry-form button {
+    background-color: #000;
+    color: var(--white-font-color);
+    padding: 11px 35px;
+}
+
+    .enquiry-form button:hover {
+        background-color: #0365a2;
+        color: #fff;
+    }
+
+.banner-bg .col-sm-4 {
+    text-align: center;
+}
+
+/******repair-brand-section**********/
+
+.repair-brand-section {
+    background-color: var(--white-bg-color);
+    text-align: center;
+}
+
+    .repair-brand-section h2 {
+        font-size: 34px;
+        font-weight: 700;
+        padding: 40px;
+    }
+
+    .repair-brand-section .repair-brand-search {
+        padding: 10px 40px 10px 60px;
+        border-radius: 50px;
+        width: 35%;
+        border: 1px solid #5f5f5f;
+        font-weight: 500;
+        font-size: 18px;
+    }
+        /*.repair-brand-section .repair-brand-search:before{
+	position:absolute;
+	content:"\f002";
+	top:0px;
+	left:0px;
+	color:#ccc;
+	height:20px;
+	width:20px;
+	z-index:999;
+}*/
+        .repair-brand-section .repair-brand-search:hover {
+            border: 1px solid #0b6eac;
+            box-shadow: 0px 0px 5px 0px #0b6eac;
+        }
+
+    .repair-brand-section span {
+        position: relative;
+        color: #9fa1a3;
+    }
+
+        .repair-brand-section span i {
+            position: absolute;
+            font-size: 20px;
+            top: -1px;
+            left: 20px;
+            color: #9fa1a3;
+        }
+
+.repair-brand ul {
+    list-style: none;
+    margin-top: 50px;
+    padding-left: 0px;
+}
+
+    .repair-brand ul li {
+        border: 1px solid #e5e2e2;
+        display: inline-block;
+        width: 19.5%;
+        /* min-height: 190px;*/
+        text-align: center;
+        margin-top: 3px;
+    }
+
+        .repair-brand ul li:hover {
+            box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+            border: solid 1px #008dd2;
+        }
+
+
+
+
+        .repair-brand ul li a {
+            padding: 3px 0px;
+            display: block;
+        }
+
+.repair-brand .col-sm-12 p {
+    padding: 0px 10px;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    /* font-weight: 600; */
+}
+
+/** We Fix With Care*/
+
+.repair-fix h3 {
+    font-weight: 600;
+    text-align: center
+}
+
+.gray-bg {
+    width: 100%;
+    background-color: #f4f4f4;
+    margin: 20px 0px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.padng-15 {
+    padding: 15px 10px;
+}
+
+.issues-list h3 {
+    font-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.issues-list ul li {
+    display: inline-block;
+    width: 19%;
+    text-align: CENTER;
+    position: relative;
+    line-height: 53px;
+    font-weight: 600;
+}
+
+.lightyellow-bg {
+    background-color: #fff7f1 !important;
+}
+
+.issues-list ul li:after {
+    content: "";
+    position: absolute;
+    top: 66px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    padding: 0 0 8px;
+    width: 50px;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+}
+
+.issues-list ul li:hover {
+    color: #ff6d00;
+}
+
+    .issues-list ul li:hover:after {
+        padding: 0 60px 8px;
+        border-color: #ff6d00;
+        -webkit-transition: border-color .2s ease-in-out,padding .2s ease-in-out;
+        -o-transition: border-color .2s ease-in-out,padding .2s ease-in-out;
+        transition: border-color .2s ease-in-out,padding .2s ease-in-out;
+    }
+
+
+/** We Serve At **/
+
+.lSSlideOuter {
+    overflow: hidden;
+}
+
+.repair-map-location .box-bg {
+    background-color: var(--grey-bg);
+    padding: 50px 0px;
+    margin: auto;
+}
+
+    .repair-map-location .box-bg .lSSlideOuter {
+        width: 92%;
+        border: 0px solid;
+        margin: auto;
+    }
+
+.repair-map-location .lSAction > .lSPrev {
+    left: 50px;
+    background-position: 11px 9px !important;
+}
+
+.repair-map-location .lSAction > .lSNext {
+    right: 50px;
+    background-position: -29px 7px !important;
+}
+
+.text-center .table-box {
+    width: 100%;
+    margin: auto;
+}
+
+    .text-center .table-box p {
+        text-align: left;
+        background: #fff;
+        padding: 15px;
+        height: 90px;
+        margin-bottom: 0px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-top: -5px;
+    }
+
+#testimonial-slider33 .outer-box {
+    border: 1px solid #058eab;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    color: #000;
+}
+
+#testimonial-slider33 iframe {
+    width: 95%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#testimonial-slider33 .outer-box .state-name {
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+#testimonial-slider33 .outer-box:hover {
+    color: #058eab;
+}
+
+.testimonial-container {
+    background-image: url(../Images/Repair/rep-map.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+/** testimonial-container**/
+
+.testimonial-container {
+    background-image: url(../images/rep-map.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 30px 0px;
+}
+
+    .testimonial-container .lSAction > .lSPrev {
+        background-position: 11px 9px;
+        left: 60px;
+    }
+
+    .testimonial-container .lSAction > .lSNext {
+        background-position: -29px 7px;
+        right: 40px;
+    }
+
+    .testimonial-container .m-title {
+        padding-bottom: 50px;
+    }
+
+.lSAction > a {
+    width: 50px;
+    display: block;
+    top: 45%;
+    height: 50px;
+    background-image: url(../images/controls.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    margin-top: -16px;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.35s linear 0s;
+    transition: opacity 0.35s linear 0s;
+    background-color: #ffffffde !important;
+    opacity: 1 !important;
+    border: 2px solid #fff;
+    box-shadow: 1px 4px 6px #c1c1c1;
+    border-radius: 50%;
+}
+
+.content {
+    background: #ffffff;
+    padding: 32px 59px 40px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    position: relative;
+    box-shadow: 1px 2px 15px #ccc;
+    margin-top: 51px;
+    min-height: 292px;
+    text-align: center;
+}
+
+#testimonial-slider5 .testimonial-content .description {
+    font-style: italic;
+    color: #000;
+    line-height: 22px;
+}
+
+.testimonial-content .description {
+    width: 80% !important;
+    margin: auto !important;
+}
+
+.description {
+    margin-bottom: 0;
+    color: #414141;
+    font-size: 19px;
+}
+
+.testimonial-content .retailer-profile {
+    font-weight: normal !important;
+    padding-bottom: 50px;
+}
+
+.retailer-profile {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.testimonial-content {
+    box-shadow: none !important;
+    background: #ffffff00 !important;
+    padding: 0px 59px 40px !important;
+    margin-top: 10px !important;
+}
+
+.lSSlideOuter .lightSlider > *, .lSSlideOuter .lSGallery li {
+    float: left;
+}
+
+.m-title {
+    font-weight: 600;
+    margin: 40px 0px 18px 0px;
+    color: #000;
+    text-align: center;
+}
+
+.orange-text {
+    color: #ff6d00;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/****repair-model******/
+.repair-model ul {
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+    .repair-model ul li {
+        border: 1px solid #ececec;
+        display: inline-block;
+        width: 19.3%;
+        float: left;
+        /* min-height: 190px; */
+        text-align: center;
+        margin-top: 6px;
+        border-radius: 7px;
+        margin-right: 5px;
+        background-color: #f4f4f4;
+    }
+
+
+
+        .repair-model ul li:hover {
+            box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+            border: solid 1px #008dd2;
+        }
+
+        .repair-model ul li a:hover {
+            color: #ffffff;
+            background-color: #2874f0;
+            border-radius: 5px;
+        }
+
+        .repair-model ul li a {
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: normal;
+            color: #000;
+        }
+
+.repair-model p {
+    padding: 0px 0px;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    /* font-weight: 600; */
+}
+
+.rating-bx {
+    margin-top: -167px;
+}
+
+.repmodl-content h3 {
+    font-weight: 600;
+    text-align: left;
+}
+
+
+.repmodl-content h2 {
+    font-weight: 600;
+    text-align: left;
+    font-size: 21px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.we-fix{
+    font-weight: 600;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 20px
+}
+
+
+.certified-bx {
+    border: solid 2px #1833c6;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 3px 17px 9px #ccc;
+    -moz-box-shadow: 3px 17px 9px #ccc;
+    -webkit-box-shadow: 3px 17px 9px #ccc;
+    text-align: center;
+}
+
+    .certified-bx p {
+        margin-bottom: 0px;
+    }
+
+    .certified-bx:hover {
+        background-color: #fff;
+        cursor: pointer;
+        color: #000;
+    }
+
+    .certified-bx img {
+        vertical-align: middle;
+    }
+
+    .certified-bx h3 {
+        font-size: 43px;
+        font-weight: bold;
+        margin: 0;
+        color: #ff8f00;
+    }
+
+.dropdown-menu {
+    background-color: #ffffff;
+}
+
+.dropdown-header {
+    display: block;
+    padding: 3px 0px !important;
+    font-size: 18px;
+    color: #2874f0;
+}
+
+.dropdown-menu-large {
+    width: 60%;
+    left: 8%;
+}
+
+.dropdown-header, .dropdown-menu > li > a {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.dropdown-menu-large > li ul > li > a:hover, .dropdown-menu-large > li ul > li > a:focus {
+    background-color: #ffffff !important;
+    color: #0141ab !important;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+     width: 100%;
+    }
+    .certified-bx {
+        font-size: 21px;
+    }
+}
+
+
+    /**** @media screen max-width: 900px ****/
+    @media screen and (max-width: 900px) {
+        .container {
+            width: 100%;
+        }
+
+        .banner-bg .col-sm-8 h1 {
+            font-size: 38px;
+            line-height: 54px;
+        }
+
+        .banner-bg img {
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .repair-brand-section h2 {
+            font-size: 32px;
+            padding: 20px;
+        }
+
+        .repair-brand-section .repair-brand-search {
+            width: 50%;
+        }
+
+        .repair-brand ul {
+            margin-top: 32px;
+        }
+
+            .repair-brand ul li img {
+                width: 75%;
+            }
+
+            .repair-brand ul li {
+                padding: 32px 0px;
+            }
+
+        .issues-list ul li {
+            line-height: 17px;
+            vertical-align: text-top;
+        }
+
+            .issues-list ul li:after {
+                top: 77px;
+            }
+
+        .issues-list img {
+            padding-bottom: 24px;
+            padding-top: 10px;
+        }
+
+        .repair-map-location .lSAction > .lSPrev {
+            left: 12px;
+        }
+
+        .repair-map-location .lSAction > .lSNext {
+            right: 12px;
+        }
+
+        .testimonial-container .lSAction > .lSPrev {
+            left: 25px;
+        }
+
+        .testimonial-container .lSAction > .lSNext {
+            right: 25px;
+        }
+
+        .text-center .table-box p {
+            font-size: 12px;
+            padding: 8px;
+        }
+        .cart-div {
+         display:none;
+        }
+        .repmob-no {
+            font-size: 24px;
+        }
+        .nav > li > a {
+            padding: 10px 7px;
+        }
+        .r-banner .landing-form {
+            position: absolute !important;
+            right: 12px !important;
+            top: 10px !important;
+        }
+        .samsung-img img {
+         width: 20%;
+        }
+        .navbar-nav .open .dropdown-menu {
+            position: absolute !important;
+            background-color: #2874f0 !important;
+        }
+        .repair-banner-bg h2 {
+            font-size: 43px;
+        }
+		
+		/* width */
+::-webkit-scrollbar {
+  width: 15px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white!important; 
+  border-radius: 10px!important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000!important;
+}
+
+
+    }
+    /**** @media screen max-width: 767px ****/
+    @media screen and (max-width: 767px) {
+        .r-banner .landing-form {
+            position: inherit !important;
+        }
+        .banner-bg img {
+            width: 35%;
+            margin-top: 16px;
+        }
+
+        .repair-brand-section h2 {
+            font-size: 30px;
+            padding: 20px;
+        }
+
+        .repair-brand-section .repair-brand-search {
+            padding: 10px 40px 10px 50px;
+            width: 48%;
+        }
+
+        .repair-brand ul li img {
+            width: 80%;
+        }
+
+        .repair-brand ul li {
+            padding: 34px 0px;
+        }
+
+        .repair-brand ul {
+            margin-top: 30px;
+        }
+
+        .issues-list ul li {
+            line-height: 17px;
+            vertical-align: text-top;
+        }
+
+            .issues-list ul li:after {
+                top: 77px;
+            }
+
+        .issues-list img {
+            padding-bottom: 24px;
+            padding-top: 10px;
+        }
+
+        .repmob-no {
+            display: none;
+        }
+
+        .certified-bx {
+            margin-bottom: 10px;
+            box-shadow: none;
+        }
+
+        .rating-bx {
+            margin-top: 0px;
+        }
+
+        .we-offer .lSAction > .lSPrev {
+            left: 0px !important;
+        }
+
+        .repair-map-location .lSAction > .lSNext {
+            right: 0px;
+        }
+
+        .repair-model ul li {
+            width: 48%;
+        }
+
+        .testimonial-container .lSAction > .lSPrev {
+            left: 25px;
+        }
+
+        .testimonial-container .lSAction > .lSNext {
+            right: 25px;
+        }
+
+        .dropdown-menu-large {
+            width: 100%;
+            left: 0%;
+        }
+        .navbar-nav .open .dropdown-menu {
+            position: static!important;
+            background-color: #2874f0 !important;
+        }
+        .repair-banner-bg h2 {
+            font-size: 25px;
+        }
+    }
+
+
+    @media screen and (max-width: 600px) {
+        .banner-bg .col-sm-8 h1 {
+            font-size: 30px;
+            line-height: 40px;
+        }
+
+        .banner-bg .enquiry-form {
+            margin-top: 20px;
+            width: 90%;
+            margin: auto;
+        }
+
+        .banner-bg img {
+            width: 30%;
+            margin-top: 16px;
+        }
+
+        .repair-brand-section h2 {
+            padding: 15px;
+            font-size: 26px;
+        }
+
+        .repair-brand-section .repair-brand-search {
+            width: 70%;
+            font-size: 14px;
+            padding: 10px 15px 10px 40px;
+        }
+
+        .repair-brand-section span i {
+            font-size: 16px;
+            top: 2px;
+            left: 16px;
+        }
+
+        .repair-brand .col-sm-12 p {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+        .repair-brand ul {
+            margin-top: 30px;
+        }
+
+            .repair-brand ul li {
+                width: 32%;
+                padding: 30px 0px;
+                margin: auto;
+                margin-bottom: 3px;
+            }
+
+                .repair-brand ul li img {
+                    width: 80%;
+                }
+
+        .repair-fix ul {
+            padding-left: 10px;
+        }
+
+        .issues-list ul li {
+            width: 32%;
+            vertical-align: text-top;
+            line-height: normal;
+            padding-bottom: 18px;
+            padding-top: 5px;
+        }
+
+        .issues-list img {
+            padding-bottom: 12px;
+            padding-top: 10px;
+        }
+
+        .issues-list ul li:after {
+            top: 80px;
+        }
+
+        .repair-map-location .lSAction > .lSPrev {
+            left: -18px;
+        }
+
+        /*.repair-map-location .lSAction > .lSNext {
+        right: -18px;
+    }*/
+
+        .testimonial-container .lSAction > .lSPrev {
+            left: 15px;
+        }
+
+        .testimonial-container .lSAction > .lSNext {
+            right: 15px;
+        }
+
+        .text-center .table-box p {
+            font-size: 12px;
+        }
+
+        .banner-bg .enquiry-form h3 {
+            font-size: 16px;
+        }
+
+        .banner-bg img {
+            width: 40% !important;
+            margin-top: 16px;
+        }
+
+        .repair-brand ul li {
+            padding: 3px 0px !important;
+        }
+
+            .repair-brand ul li a {
+                padding: 0px 0px !important;
+            }
+
+        .navbar-toggle {
+            float: right;
+            margin-top: 5px;
+            margin-right: 15px;
+            height: 31px;
+            margin-bottom: 5px;
+        }
+
+        .page-body {
+            padding-top: 66px;
+        }
+
+        .banner-bg .col-sm-8 h1 {
+            font-size: 24px;
+            line-height: 35px;
+        }
+
+        .footer-menu .col-sm-3 {
+            width: 48% !important;
+            float: left;
+        }
+
+        .footer .usefullink {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .footer-menu .col-sm-2 li {
+            width: 48% !important;
+            float: left;
+        }
+
+        .title5 {
+        font-size: 1.4rem;
+        margin-top: 15px;
+        }
+        .samsung-testimonial h1 {
+        font-size: 17px;
+        }
+    }
+
+    /**** @media screen(max-width: 360px)****/
+
+    @media screen and (max-width: 360px) {
+        .banner-bg .col-sm-8 h1 {
+            font-size: 28px;
+            line-height: 34px;
+            margin-top: 2px;
+        }
+
+        .banner-bg .enquiry-form h3 {
+            font-size: 18px;
+        }
+
+        .banner-bg .enquiry-form {
+            margin-top: 26px;
+        }
+
+            .banner-bg .enquiry-form input {
+                padding: 15px;
+            }
+
+            .banner-bg .enquiry-form select {
+                height: initial;
+                color: var(--black-font-color);
+                border: 1px solid #e5e2e2;
+            }
+
+        .enquiry-form button {
+            padding: 5px 12px;
+        }
+
+        .repair-brand-section h2 {
+            font-size: 22px !important;
+            padding: 10px !important;
+        }
+
+        .repair-brand-section .repair-brand-search {
+            padding: 3px 14px 5px 32px !important;
+            width: 70% !important;
+            font-size: 12px;
+        }
+
+        .repair-brand-section span i {
+            font-size: 12px !important;
+            top: 5px !important;
+            left: 14px !important;
+        }
+
+        .repair-brand ul {
+            margin-top: 15px;
+        }
+
+            .repair-brand ul li {
+                width: 48% !important;
+                padding: 0px 10px;
+            }
+
+        .repair-brand .col-sm-12 p {
+            font-size: 13px;
+            line-height: 22px;
+            margin-top: 0px;
+        }
+
+        .repair-fix h3 {
+            font-size: 22px;
+        }
+
+        .gray-bg {
+            margin: 8px 0px;
+        }
+
+        .issues-list h3 {
+            font-size: 18px;
+            padding-left: 5px;
+            margin-bottom: 28px;
+        }
+
+        .repair-fix ul {
+            padding-left: 0px;
+        }
+
+        .issues-list ul li {
+            width: 48% !important;
+            vertical-align: text-top !important;
+            line-height: 14px !important;
+            padding-bottom: 18px !important;
+        }
+
+        .issues-list img {
+            padding-bottom: 12px;
+            padding-top: 10px;
+        }
+
+        .issues-list ul li:after {
+            top: 71px !important;
+        }
+
+        .text-center .table-box p {
+            font-size: 12px;
+        }
+
+        .state-name h4 {
+            font-size: 16px;
+        }
+
+        .repair-map-location .lSAction > .lSPrev {
+            left: -17px !important;
+        }
+
+        .repair-map-location .lSAction > .lSNext {
+            right: -17px !important;
+        }
+
+        .lSAction > .lSPrev {
+            left: 13px !important;
+        }
+
+        .lSAction > .lSNext {
+            right: 15px !important;
+        }
+
+        #testimonial-slider5 .testimonial-content .description {
+            line-height: 15px;
+            font-size: 12px;
+        }
+
+        #testimonial-slider5 .testimonial-content img {
+            width: 50%;
+        }
+
+        .testimonial-container .m-title {
+            padding-bottom: 5px;
+        }
+    }
+
+    .gray-nav-bg {
+        background-color: #f8f8f8;
+    }
+
+
+
+    .dropdown-large {
+        position: static !important;
+    }
+
+    .dropdown-menu-large {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 20px 0px;
+    }
+
+        .dropdown-menu-large > li > ul {
+            padding: 0;
+            margin: 0;
+        }
+
+            .dropdown-menu-large > li > ul > li {
+                list-style: none;
+            }
+
+                .dropdown-menu-large > li > ul > li > a {
+                    display: block;
+                    padding: 3px 0px;
+                    clear: both;
+                    font-weight: 300;
+                    line-height: 1.428571429;
+                    color: #4c4747;
+                    white-space: normal;
+                }
+
+        .dropdown-menu-large > li ul > li > a:hover,
+        .dropdown-menu-large > li ul > li > a:focus {
+            text-decoration: none;
+            color: #262626;
+            background-color: #f5f5f5;
+        }
+
+        .dropdown-menu-large .disabled > a,
+        .dropdown-menu-large .disabled > a:hover,
+        .dropdown-menu-large .disabled > a:focus {
+            color: #999999;
+        }
+
+            .dropdown-menu-large .disabled > a:hover,
+            .dropdown-menu-large .disabled > a:focus {
+                text-decoration: none;
+                background-color: transparent;
+                background-image: none;
+                filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+                cursor: not-allowed;
+            }
+.whatsapp-icon img {
+    width: 55px;
+}
+.whatsapp-icon {
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    bottom: 35px;
+    right: 30px;
+    z-index: 99;
+}
+.whatsapp-icon a {
+    display: block;
+}
+.whatsapp-icon.whatsapp-icon02 {
+    bottom: 30px;
+}
+
+
+
+
+    @media (max-width: 768px) {
+        .dropdown-menu-large {
+            margin-left: 0;
+            margin-right: 0;
+            overflow: scroll;
+            max-height: 290px;
+            border: solid 1px #ccc !important;
+        }
+
+            .dropdown-menu-large > li {
+                margin-bottom: 30px;
+            }
+
+                .dropdown-menu-large > li:last-child {
+                    margin-bottom: 0;
+                }
+
+            .dropdown-menu-large .dropdown-header {
+                padding: 0px 15px 12px 0px !important;
+                margin-bottom: 10px;
+            }
+
+        .repmob-no {
+            font-size: 23px;
+        }
+
+        .nav > li > a {
+         padding: 10px 9px;
+         font-size: 12px;
+        }
+
+        .certified-bx img {
+            width: 100%;
+        }
+
+        .certified-bx h3 {
+            font-size: 34px;
+        }
+
+        .certified-bx {
+            font-size: 15px;
+        }
+
+        .repair-model ul li a {
+            font-size: 14px;
+        }
+
+        .samsung-title h1 {
+            line-height: 35px !important;
+        }
+
+        .dropdown-menu-large .dropdown-header {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .navbar-collapse a:hover {
+            color: #ffffff;
+        }
+
+        .dropdown-menu-large > li > ul > li > a {
+            color: #ffffff;
+        }
+        .samsung-testimonial h1 {
+            font-size: 17px;
+        }
+     .whatsapp-icon {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 20px;
+        right: 12px;
+    }
+    .whatsapp-icon img {
+        width: 40px;
+    }
+
+    }
